@@ -1,0 +1,13 @@
+{
+    "name": "fizzbuzz",
+    "description": "FizzBuzz code test",
+    "license": "proprietary", 
+    "require": {
+        "php": ">=5.5",
+        "behat/behat": "3.0.*"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+	"autoload": {"psr-0": {"": "src"}}
+}
