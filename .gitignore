@@ -1,6 +1,73 @@
-composer.phar
-vendor/
+## cd /Users/istiak/Documents/OneDrive/GIT/fizzbuzz-master ##
+Last login: Mon Nov  9 16:04:33 on ttys002
+istiaks-MBP:~ istiak$ cd /
+istiaks-MBP:/ istiak$ cd Users/istiak/Documents/OneDrive/a
+aaa/       admin/     admin.zip  
+istiaks-MBP:/ istiak$ cd Users/istiak/Documents/OneDrive/aaa/admin/
+istiaks-MBP:admin istiak$ 
+istiaks-MBP:admin istiak$ vi .gitignore 
 
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads/*
+web/bundles/*
+web/css/*
+web/images/*
+web/js/*
+
+# Temporary files
+*.php~
+
+# Composer
+composer.phar
+bin/phpcbf
+bin/phpcs
+
+# Vagrant
+.vagrant*
+nbproject/*
+
+# Local environment variables
+build/.env
+
+# Mac files
+.DS_Store
+
+# IDE
+.idea
+*.swp
+~                                                                                                                                        
+".gitignore" 34L, 328C
+
